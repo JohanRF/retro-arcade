@@ -1,0 +1,70 @@
+:root {
+    /* Colors (valores reales de la versión 1) */
+    --color-bg: #0a0a12;
+    --color-bg-elevated: #0e0e1a;
+    --color-surface: #141423;
+    --color-surface-hover: #1c1c33;
+    --color-border: rgba(255, 255, 255, 0.1);
+
+    --color-text: #e0e6ed;
+    --color-text-muted: #7a8b9e;
+
+    --color-primary: #00f3ff;
+    --color-primary-hover: #66f7ff;
+    --color-secondary: #ffe600;
+    --color-accent: #ff0055;
+
+    --color-success: #00ff66;
+    --color-disabled: #7a8b9e;
+
+    /* Typography */
+    --font-display: "Press Start 2P", monospace;
+    --font-body: "VT323", monospace;
+    --font-mono: ui-monospace, SFMono-Regular, Consolas, monospace;
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.5rem;
+    --font-size-2xl: 2rem;
+    --font-size-3xl: clamp(2.25rem, 5vw, 3.5rem);
+
+    /* Spacing */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+
+    /* Radii (valores reales) */
+    --radius-sm: 8px;
+    /* botón START */
+    --radius-md: 10px;
+    /* botones del menú */
+    --radius-lg: 14px;
+    /* tarjetas y modal */
+    --radius-pill: 999px;
+    /* insignia y barra de detalles */
+
+    /* Glow neón (valores reales) */
+    --glow-primary: 0 0 10px rgba(0, 243, 255, 0.5), 0 0 20px rgba(0, 243, 255, 0.3);
+    --glow-secondary: 0 0 10px rgba(255, 230, 0, 0.5), 0 0 20px rgba(255, 230, 0, 0.3);
+    --glow-accent: 0 0 10px rgba(255, 0, 85, 0.5), 0 0 20px rgba(255, 0, 85, 0.3);
+    --glow-active: 0 0 20px rgba(0, 243, 255, 0.8), 0 0 40px rgba(0, 243, 255, 0.4);
+
+    /* Motion */
+    --duration-normal: 300ms;
+    --ease-standard: ease;
+
+    /* Layout de la consola */
+    --header-height: 75px;
+    --footer-height: 85px;
+    --tile-width: 260px;
+    --tile-height: 320px;
+}
